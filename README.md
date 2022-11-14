@@ -1,4 +1,4 @@
-# Next.js example
+# Scentronix Test - 1
 
 ## How to use
 
@@ -25,7 +25,9 @@ To view output - https://scentronix-ui.vercel.app/recipe/whole-grain-banana-brea
 ## Project Details
 
 The project uses [Next.js](https://github.com/vercel/next.js), which is a framework for server-rendered React apps.
-It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5.
+It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5. <br />
+
+To view more recipes, click on Categories Menu and select other options
 
 ## The link component
 The [example folder](https://github.com/mui/material-ui/tree/HEAD/examples/nextjs-with-typescript) provides an adapter for the use of [Next.js's Link component](https://nextjs.org/docs/api-reference/next/link) with MUI.
