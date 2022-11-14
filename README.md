@@ -3,6 +3,7 @@
 ## How to use
 
 Install it and run:
+Note: Use node version v16
 
 ```sh
 npm install
@@ -12,7 +13,7 @@ npm run dev
 or:
 
 
-## The idea behind the example
+## Project Details
 
 The project uses [Next.js](https://github.com/vercel/next.js), which is a framework for server-rendered React apps.
 It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5.

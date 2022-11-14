@@ -30,7 +30,7 @@ function RecipeBreadcrumbs(props) {
     <div>
       {pathArray.map((path) => {
         return (
-          <span css={breadcrumbCss.recipeItemWrapper} >
+          <span key={path.slug} css={breadcrumbCss.recipeItemWrapper} >
             <Link href={path.slug}>{path.label} </Link>
             <NavigateNextIcon />
           </span>

@@ -1,0 +1,15 @@
+// We will need to use this utill we get SWC support for Emotion CSS
+{
+    "presets": [
+      [
+        "next/babel",
+        {
+          "preset-react": {
+            "runtime": "automatic",
+            "importSource": "@emotion/react"
+          }
+        }
+      ]
+    ],
+    "plugins": ["@emotion/babel-plugin"]
+  }

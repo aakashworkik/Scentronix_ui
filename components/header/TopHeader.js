@@ -195,7 +195,7 @@ function TopHeader(props) {
                       <List component="div" disablePadding>
                         {item.subItems.map((subItem) => {
                           return (
-                            <ListItemButton onClick={() => handleSubNavigation(subItem.slug)} sx={{ pl: 3 }}>
+                            <ListItemButton key={subItem.name} onClick={() => handleSubNavigation(subItem.slug)} sx={{ pl: 3 }}>
                               <ListItemText primary={subItem.name} />
                             </ListItemButton>
                           )
