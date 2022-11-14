@@ -19,6 +19,8 @@ npm run build
 
 or:
 
+## Build Link
+To view output - https://scentronix-ui.vercel.app/recipe/whole-grain-banana-bread
 
 ## Project Details
 
