@@ -5,7 +5,7 @@ import Image from 'next/image'
 import RecipeBreadcrumbs from './BreadCrumbs'
 import RecipePrepareSection from './PrepDetails'
 import { Typography } from '@mui/material'
-import YieldSection from './yield'
+import YieldSection from './Yield'
 import ActionSection from './ActionSection'
 
 const recipeCss = {

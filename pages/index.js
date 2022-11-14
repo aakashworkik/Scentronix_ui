@@ -9,11 +9,9 @@ export default function Index() {
     <Container maxWidth="sm">
       <Box sx={{ my: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Next.js
+          Welcome !
+          For Recipe page, click <a href="/recipe/whole-grain-banana-bread">Recipe</a>
         </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
       </Box>
     </Container>
   );

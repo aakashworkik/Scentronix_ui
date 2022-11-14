@@ -3,11 +3,18 @@
 ## How to use
 
 Install it and run:
-Note: Use node version v16
+Note: Use node version v16 <br />
 
+For Dev start
 ```sh
 npm install
 npm run dev
+```
+
+For Prod build
+```sh
+npm install
+npm run build
 ```
 
 or:
